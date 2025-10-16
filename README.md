@@ -2,16 +2,7 @@
 
 A comprehensive collection of Data Structures and Algorithms implementations in Java, organized by topic.
 
-## 📁 Repository Structure
-
-```
-├── Binary Search Tree/
-├── Binary tree/
-├── Heap/
-└── Recursion & Backtracking/
-```
-
-## 📚 Topics Covered
+##  Topics Covered
 
 ### 🌳 Binary Search Tree
 Implementation of various BST operations and problems:
