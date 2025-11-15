@@ -49,7 +49,7 @@ public class MergeKSortedLists {
 
     // Approach 2: Using ArrayList and Sorting
     public ListNode mergeKLists_Sorting(ListNode[] lists) {
-        List<Integer> values = new ArrayList<>();
+        List<Integer> values = new ArrayList<>(); 
 
         for (ListNode head : lists) {
             while (head != null) {
