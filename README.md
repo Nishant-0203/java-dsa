@@ -75,20 +75,23 @@ General binary tree problems and traversals (21 files)
 ---
 
 ## 📊 Graph
-Graph representations and classic algorithms (10 files)
+Graph representations and classic algorithms (13 files)
 
 | File | Description |
 |------|-------------|
+| `Graph.java` | Graph data structure implementation |
 | `UndirectedStoring.java` | Store undirected graph using adjacency list |
 | `DirectedStoring.java` | Store directed graph using adjacency list |
 | `Bfs.java` | Breadth-First Search traversal |
 | `Dfs.java` | Depth-First Search traversal |
-| `DetectCycleInGraph.java` | Detect cycle in undirected graph |
-| `FindCircleNum.java` | Find number of connected components |
-| `NumIslands.java` | Count number of islands (2D grid) |
+| `DetectCycleInGraph.java` | Detect cycle in undirected graph (DFS) |
+| `IsCyclicDirected.java` | Detect cycle in directed graph |
+| `IsBipartite.java` | Check if graph is bipartite (2-colorable) |
+| `FindCircleNum.java` | Find number of connected components (provinces) |
+| `NumIslands.java` | Count number of islands (2D grid DFS) |
+| `CountDistinctIslands.java` | Count distinct islands by shape |
 | `FloodFill.java` | Flood fill algorithm (paint bucket tool) |
-| `OrangesRotting.java` | Minimum time for all oranges to rot |
-| `tempCodeRunnerFile.java` | Temporary test file |
+| `OrangesRotting.java` | Minimum time for all oranges to rot (BFS) |
 
 ---
 
@@ -133,10 +136,10 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | Binary Search Tree | 13 | `.java` files |
 | Binary Tree | 21 | `.java` files |
-| Graph | 10 | `.java` files |
+| Graph | 13 | `.java` files |
 | Heap | 8 | `.java` files |
 | Recursion & Backtracking | 11 | `.java` files |
-| **TOTAL** | **63** | **Java implementations** |
+| **TOTAL** | **66** | **Java implementations** |
 
 
 
@@ -219,7 +222,7 @@ java SearchBST
 ### Most Asked Problems
 - **Trees**: LCA, Diameter, Serialize/Deserialize, Balanced Tree
 - **BST**: Search, Insert, Delete, Kth Smallest
-- **Graphs**: Cycle Detection, Number of Islands, Connected Components
+- **Graphs**: Cycle Detection (Undirected & Directed), Number of Islands, Bipartite Check, Connected Components, Flood Fill
 - **Backtracking**: Subsets, Permutations, Combinations, N-Queens
 - **Heap**: Kth Largest, Merge K Lists
 
@@ -246,10 +249,13 @@ java-dsa/
 │   ├── InorderTraversal.java
 │   ├── LevelOrderTraversal.java
 │   └── ...
-├── graph/                       (10 files)
+├── graph/                       (13 files)
+│   ├── Graph.java
 │   ├── Bfs.java
 │   ├── Dfs.java
 │   ├── DetectCycleInGraph.java
+│   ├── IsBipartite.java
+│   ├── CountDistinctIslands.java
 │   └── ...
 ├── Heap/                        (8 files)
 │   ├── Heap.java
@@ -315,7 +321,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## ✨ Quick Stats
 
-- 📦 **63** Java files with complete implementations
+- 📦 **66** Java files with complete implementations
 - ⚡ **5** Major data structure categories
 - 🎯 **100+** Unique problems covered
 - 💻 **Ready to run** - Every file has `main()` method
@@ -323,6 +329,16 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ---
 
+## 🆕 Recent Additions
+
+### Graph Algorithms (Added Recently)
+- ✅ `Graph.java` - Graph data structure implementation
+- ✅ `IsBipartite.java` - Bipartite graph checking (BFS/DFS)
+- ✅ `IsCyclicDirected.java` - Cycle detection in directed graphs
+- ✅ `CountDistinctIslands.java` - Count unique island shapes
+
+---
+
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: November 2025*
+*Last Updated: November 21, 2025*
