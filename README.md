@@ -75,7 +75,7 @@ General binary tree problems and traversals (21 files)
 ---
 
 ## 📊 Graph
-Graph representations and classic algorithms (16 files)
+Graph representations and classic algorithms (17 files)
 
 | File | Description |
 |------|-------------|
@@ -91,6 +91,7 @@ Graph representations and classic algorithms (16 files)
 | `TopoSort.java` | Topological sorting of directed acyclic graph |
 | `CourseSchedule.java` | Course scheduling (detect if possible - Topo Sort) |
 | `CourseScheduleII.java` | Course scheduling with order (Topological Sort) |
+| `ShortestPathDAG.java` | Shortest path in Directed Acyclic Graph |
 | `FindCircleNum.java` | Find number of connected components (provinces) |
 | `NumIslands.java` | Count number of islands (2D grid DFS) |
 | `CountDistinctIslands.java` | Count distinct islands by shape |
@@ -140,10 +141,10 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | Binary Search Tree | 13 | `.java` files |
 | Binary Tree | 21 | `.java` files |
-| Graph | 16 | `.java` files |
+| Graph | 17 | `.java` files |
 | Heap | 8 | `.java` files |
 | Recursion & Backtracking | 11 | `.java` files |
-| **TOTAL** | **69** | **Java implementations** |
+| **TOTAL** | **70** | **Java implementations** |
 
 
 
@@ -226,7 +227,7 @@ java SearchBST
 ### Most Asked Problems
 - **Trees**: LCA, Diameter, Serialize/Deserialize, Balanced Tree
 - **BST**: Search, Insert, Delete, Kth Smallest
-- **Graphs**: Topological Sort, Course Schedule, Cycle Detection (DFS & Kahn's), Number of Islands, Bipartite Check, Connected Components
+- **Graphs**: Topological Sort, Shortest Path in DAG, Course Schedule, Cycle Detection (DFS & Kahn's), Number of Islands, Bipartite Check
 - **Backtracking**: Subsets, Permutations, Combinations, N-Queens
 - **Heap**: Kth Largest, Merge K Lists
 
@@ -253,7 +254,7 @@ java-dsa/
 │   ├── InorderTraversal.java
 │   ├── LevelOrderTraversal.java
 │   └── ...
-├── graph/                       (16 files)
+├── graph/                       (17 files)
 │   ├── Graph.java
 │   ├── Bfs.java
 │   ├── Dfs.java
@@ -263,6 +264,7 @@ java-dsa/
 │   ├── TopoSort.java
 │   ├── CourseSchedule.java
 │   ├── CourseScheduleII.java
+│   ├── ShortestPathDAG.java
 │   ├── CountDistinctIslands.java
 │   └── ...
 ├── Heap/                        (8 files)
@@ -329,7 +331,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## ✨ Quick Stats
 
-- 📦 **69** Java files with complete implementations
+- 📦 **70** Java files with complete implementations
 - ⚡ **5** Major data structure categories
 - 🎯 **100+** Unique problems covered
 - 💻 **Ready to run** - Every file has `main()` method
@@ -339,7 +341,8 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## 🆕 Recent Additions
 
-### Graph Algorithms (Latest Updates - November 2025)
+### Graph Algorithms (Latest Updates - December 2025)
+- ✅ `ShortestPathDAG.java` - Shortest path algorithm for Directed Acyclic Graph
 - ✅ `TopoSort.java` - Topological sorting for DAG (Directed Acyclic Graph)
 - ✅ `CourseSchedule.java` - Determine if course scheduling is possible
 - ✅ `CourseScheduleII.java` - Return valid course order using Topo Sort
@@ -350,6 +353,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 - ✅ `CountDistinctIslands.java` - Count unique island shapes
 
 ### 🔥 Popular Topics Covered
+- **Shortest Path Algorithms** - DAG-specific optimized solutions
 - **Topological Sorting** - Essential for dependency resolution problems
 - **Cycle Detection** - Both DFS and BFS (Kahn's) approaches
 - **Course Scheduling** - Real-world application of graph algorithms
@@ -358,4 +362,4 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: November 27, 2025*
+*Last Updated: December 1, 2025*
