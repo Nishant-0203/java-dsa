@@ -91,7 +91,7 @@ Graph representations and classic algorithms (17 files)
 | `TopoSort.java` | Topological sorting of directed acyclic graph |
 | `CourseSchedule.java` | Course scheduling (detect if possible - Topo Sort) |
 | `CourseScheduleII.java` | Course scheduling with order (Topological Sort) |
-| `ShortestPathDAG.java` | Shortest path in Directed Acyclic Graph |
+| `ShortestPathInDAG.java` | Shortest path in Directed Acyclic Graph |
 | `FindCircleNum.java` | Find number of connected components (provinces) |
 | `NumIslands.java` | Count number of islands (2D grid DFS) |
 | `CountDistinctIslands.java` | Count distinct islands by shape |
@@ -264,7 +264,7 @@ java-dsa/
 │   ├── TopoSort.java
 │   ├── CourseSchedule.java
 │   ├── CourseScheduleII.java
-│   ├── ShortestPathDAG.java
+│   ├── ShortestPathInDAG.java
 │   ├── CountDistinctIslands.java
 │   └── ...
 ├── Heap/                        (8 files)
@@ -342,7 +342,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 ## 🆕 Recent Additions
 
 ### Graph Algorithms (Latest Updates - December 2025)
-- ✅ `ShortestPathDAG.java` - Shortest path algorithm for Directed Acyclic Graph
+- ✅ `ShortestPathInDAG.java` - Shortest path algorithm for Directed Acyclic Graph
 - ✅ `TopoSort.java` - Topological sorting for DAG (Directed Acyclic Graph)
 - ✅ `CourseSchedule.java` - Determine if course scheduling is possible
 - ✅ `CourseScheduleII.java` - Return valid course order using Topo Sort
@@ -362,4 +362,4 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: December 1, 2025*
+*Last Updated: December 4, 2025*
