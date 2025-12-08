@@ -1,38 +1,38 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
+import java.util.Arrays;
 
-public class ShortestPathInDAG {
+public class ShortestPathDAG {
 
-    public int[] shortestPath(int V, int E, int[][] edges) {
+    public int[] shortestPath(int v, int e, int[][] edges) {
 
-        // Step 1: Build adjacency list
+        // Build adjacency list
         List<List<int[]>> adj = new ArrayList<>();
-        for (int i = 0; i < V; i++) {
+        for (int i = 0; i < v; i++) {
             adj.add(new ArrayList<>());
         }
 
-        for (int[] e : edges) {
-            adj.get(e[0]).add(new int[]{e[1], e[2]});
+        for (int[] edge : edges) {
+            adj.get(edge[0]).add(new int[]{edge[1], edge[2]});
         }
 
-        // Step 2: Topological sort using DFS
-        boolean[] vis = new boolean[V];
+        // Topological sort
         Stack<Integer> st = new Stack<>();
+        boolean[] vis = new boolean[v];
 
-        for (int i = 0; i < V; i++) {
+        for (int i = 0; i < v; i++) {
             if (!vis[i]) {
-                topoSort(i, adj, vis, st);
+                topo(i, adj, vis, st);
             }
         }
 
-        // Step 3: Distance array
-        int[] dist = new int[V];
+        // Distance array
+        int[] dist = new int[v];
         Arrays.fill(dist, Integer.MAX_VALUE);
-        dist[0] = 0; // source = 0
+        dist[0] = 0;  // source = 0
 
-        // Step 4: Relax edges in topological order
+        // Relax edges in topo order
         while (!st.isEmpty()) {
             int node = st.pop();
 
@@ -48,8 +48,8 @@ public class ShortestPathInDAG {
             }
         }
 
-        // Replace unreachable distances with -1
-        for (int i = 0; i < V; i++) {
+        // Replace unreachable with -1
+        for (int i = 0; i < v; i++) {
             if (dist[i] == Integer.MAX_VALUE) {
                 dist[i] = -1;
             }
@@ -58,25 +58,29 @@ public class ShortestPathInDAG {
         return dist;
     }
 
-    // Topo DFS
-    private void topoSort(int node, List<List<int[]>> adj, boolean[] vis, Stack<Integer> st) {
+    // DFS for topological sort
+    public void topo(int node, List<List<int[]>> adj, boolean[] vis, Stack<Integer> st) {
         vis[node] = true;
 
         for (int[] edge : adj.get(node)) {
             int next = edge[0];
             if (!vis[next]) {
-                topoSort(next, adj, vis, st);
+                topo(next, adj, vis, st);
             }
         }
 
         st.push(node);
     }
 
-    // Optional: Test Main Method
+    // -----------------------
+    // MAIN METHOD FOR TESTING
+    // -----------------------
     public static void main(String[] args) {
-        ShortestPathInDAG obj = new ShortestPathInDAG();
+        ShortestPathDAG obj = new ShortestPathDAG();
 
-        int V = 6, E = 7;
+        int v = 6;
+        int e = 7;
+
         int[][] edges = {
             {0, 1, 2},
             {0, 4, 1},
@@ -87,7 +91,7 @@ public class ShortestPathInDAG {
             {5, 3, 1}
         };
 
-        int[] result = obj.shortestPath(V, E, edges);
+        int[] result = obj.shortestPath(v, e, edges);
 
         System.out.println("Shortest distances from node 0:");
         System.out.println(Arrays.toString(result));
