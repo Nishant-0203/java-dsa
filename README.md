@@ -75,7 +75,7 @@ General binary tree problems and traversals (21 files)
 ---
 
 ## 📊 Graph
-Graph representations and classic algorithms (18 files)
+Graph representations and classic algorithms (19 files)
 
 | File | Description |
 |------|-------------|
@@ -91,6 +91,7 @@ Graph representations and classic algorithms (18 files)
 | `TopoSort.java` | Topological sorting of directed acyclic graph |
 | `CourseSchedule.java` | Course scheduling (detect if possible - Topo Sort) |
 | `CourseScheduleII.java` | Course scheduling with order (Topological Sort) |
+| `DijkstraShortestPath.java` | Dijkstra's algorithm for weighted graphs |
 | `ShortestPathInDAG.java` | Shortest path in Directed Acyclic Graph |
 | `ShortestPathInUnweightedGraph.java` | Shortest path in unweighted graph (BFS) |
 | `FindCircleNum.java` | Find number of connected components (provinces) |
@@ -142,10 +143,10 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | Binary Search Tree | 13 | `.java` files |
 | Binary Tree | 21 | `.java` files |
-| Graph | 18 | `.java` files |
+| Graph | 19 | `.java` files |
 | Heap | 8 | `.java` files |
 | Recursion & Backtracking | 11 | `.java` files |
-| **TOTAL** | **71** | **Java implementations** |
+| **TOTAL** | **72** | **Java implementations** |
 
 
 
@@ -228,7 +229,7 @@ java SearchBST
 ### Most Asked Problems
 - **Trees**: LCA, Diameter, Serialize/Deserialize, Balanced Tree
 - **BST**: Search, Insert, Delete, Kth Smallest
-- **Graphs**: Topological Sort, Shortest Path in DAG, Course Schedule, Cycle Detection (DFS & Kahn's), Number of Islands, Bipartite Check
+- **Graphs**: Dijkstra's Algorithm, Topological Sort, Shortest Path (DAG/Unweighted), Course Schedule, Cycle Detection, Number of Islands, Bipartite Check
 - **Backtracking**: Subsets, Permutations, Combinations, N-Queens
 - **Heap**: Kth Largest, Merge K Lists
 
@@ -255,7 +256,7 @@ java-dsa/
 │   ├── InorderTraversal.java
 │   ├── LevelOrderTraversal.java
 │   └── ...
-├── graph/                       (18 files)
+├── graph/                       (19 files)
 │   ├── Graph.java
 │   ├── Bfs.java
 │   ├── Dfs.java
@@ -265,6 +266,7 @@ java-dsa/
 │   ├── TopoSort.java
 │   ├── CourseSchedule.java
 │   ├── CourseScheduleII.java
+│   ├── DijkstraShortestPath.java
 │   ├── ShortestPathInDAG.java
 │   ├── ShortestPathInUnweightedGraph.java
 │   ├── CountDistinctIslands.java
@@ -333,7 +335,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## ✨ Quick Stats
 
-- 📦 **71** Java files with complete implementations
+- 📦 **72** Java files with complete implementations
 - ⚡ **5** Major data structure categories
 - 🎯 **100+** Unique problems covered
 - 💻 **Ready to run** - Every file has `main()` method
@@ -344,6 +346,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 ## 🆕 Recent Additions
 
 ### Graph Algorithms (Latest Updates - December 2025)
+- ✅ `DijkstraShortestPath.java` - **Dijkstra's algorithm** for weighted graphs (Priority Queue)
 - ✅ `ShortestPathInUnweightedGraph.java` - BFS-based shortest path for unweighted graphs
 - ✅ `ShortestPathInDAG.java` - Shortest path algorithm for Directed Acyclic Graph
 - ✅ `TopoSort.java` - Topological sorting for DAG (Directed Acyclic Graph)
@@ -356,7 +359,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 - ✅ `CountDistinctIslands.java` - Count unique island shapes
 
 ### 🔥 Popular Topics Covered
-- **Shortest Path Algorithms** - DAG-specific and unweighted graph solutions (BFS)
+- **Shortest Path Algorithms** - Dijkstra's, DAG-specific, and BFS for unweighted graphs
 - **Topological Sorting** - Essential for dependency resolution problems
 - **Cycle Detection** - Both DFS and BFS (Kahn's) approaches
 - **Course Scheduling** - Real-world application of graph algorithms
@@ -365,4 +368,4 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: December 9, 2025*
+*Last Updated: December 10, 2025*
