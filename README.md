@@ -75,7 +75,7 @@ General binary tree problems and traversals (21 files)
 ---
 
 ## 📊 Graph
-Graph representations and classic algorithms (19 files)
+Graph representations and classic algorithms (18 files)
 
 | File | Description |
 |------|-------------|
@@ -92,7 +92,7 @@ Graph representations and classic algorithms (19 files)
 | `CourseSchedule.java` | Course scheduling (detect if possible - Topo Sort) |
 | `CourseScheduleII.java` | Course scheduling with order (Topological Sort) |
 | `DijkstraShortestPath.java` | Dijkstra's algorithm for weighted graphs |
-| `ShortestPathInDAG.java` | Shortest path in Directed Acyclic Graph |
+| `ShortestPathDAG.java` | Shortest path in Directed Acyclic Graph |
 | `ShortestPathInUnweightedGraph.java` | Shortest path in unweighted graph (BFS) |
 | `FindCircleNum.java` | Find number of connected components (provinces) |
 | `NumIslands.java` | Count number of islands (2D grid DFS) |
@@ -143,10 +143,10 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | Binary Search Tree | 13 | `.java` files |
 | Binary Tree | 21 | `.java` files |
-| Graph | 19 | `.java` files |
+| Graph | 18 | `.java` files |
 | Heap | 8 | `.java` files |
 | Recursion & Backtracking | 11 | `.java` files |
-| **TOTAL** | **72** | **Java implementations** |
+| **TOTAL** | **71** | **Java implementations** |
 
 
 
@@ -256,7 +256,7 @@ java-dsa/
 │   ├── InorderTraversal.java
 │   ├── LevelOrderTraversal.java
 │   └── ...
-├── graph/                       (19 files)
+├── graph/                       (18 files)
 │   ├── Graph.java
 │   ├── Bfs.java
 │   ├── Dfs.java
@@ -267,7 +267,7 @@ java-dsa/
 │   ├── CourseSchedule.java
 │   ├── CourseScheduleII.java
 │   ├── DijkstraShortestPath.java
-│   ├── ShortestPathInDAG.java
+│   ├── ShortestPathDAG.java
 │   ├── ShortestPathInUnweightedGraph.java
 │   ├── CountDistinctIslands.java
 │   └── ...
@@ -335,7 +335,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## ✨ Quick Stats
 
-- 📦 **72** Java files with complete implementations
+- 📦 **71** Java files with complete implementations
 - ⚡ **5** Major data structure categories
 - 🎯 **100+** Unique problems covered
 - 💻 **Ready to run** - Every file has `main()` method
@@ -348,7 +348,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 ### Graph Algorithms (Latest Updates - December 2025)
 - ✅ `DijkstraShortestPath.java` - **Dijkstra's algorithm** for weighted graphs (Priority Queue)
 - ✅ `ShortestPathInUnweightedGraph.java` - BFS-based shortest path for unweighted graphs
-- ✅ `ShortestPathInDAG.java` - Shortest path algorithm for Directed Acyclic Graph
+- ✅ `ShortestPathDAG.java` - Shortest path algorithm for Directed Acyclic Graph
 - ✅ `TopoSort.java` - Topological sorting for DAG (Directed Acyclic Graph)
 - ✅ `CourseSchedule.java` - Determine if course scheduling is possible
 - ✅ `CourseScheduleII.java` - Return valid course order using Topo Sort
@@ -368,4 +368,4 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: December 10, 2025*
+*Last Updated: December 11, 2025*
