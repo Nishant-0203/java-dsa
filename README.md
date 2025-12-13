@@ -5,6 +5,7 @@ A comprehensive collection of **Data Structures and Algorithms** implementations
 ## 📑 Table of Contents
 - [Binary Search Tree](#-binary-search-tree)
 - [Binary Tree](#-binary-tree)
+- [Dynamic Programming](#-dynamic-programming)
 - [Graph](#-graph)
 - [Heap](#-heap)
 - [Recursion & Backtracking](#-recursion--backtracking)
@@ -74,7 +75,16 @@ General binary tree problems and traversals (21 files)
 
 ---
 
-## 📊 Graph
+## � Dynamic Programming
+Optimization problems using DP techniques (1 file)
+
+| File | Description |
+|------|-------------|
+| `FibonacciNumber.java` | Fibonacci using memoization & tabulation |
+
+---
+
+## �📊 Graph
 Graph representations and classic algorithms (18 files)
 
 | File | Description |
@@ -143,10 +153,11 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | Binary Search Tree | 13 | `.java` files |
 | Binary Tree | 21 | `.java` files |
+| Dynamic Programming | 1 | `.java` files |
 | Graph | 18 | `.java` files |
 | Heap | 8 | `.java` files |
 | Recursion & Backtracking | 11 | `.java` files |
-| **TOTAL** | **71** | **Java implementations** |
+| **TOTAL** | **72** | **Java implementations** |
 
 
 
@@ -256,6 +267,8 @@ java-dsa/
 │   ├── InorderTraversal.java
 │   ├── LevelOrderTraversal.java
 │   └── ...
+├── Dp/                          (1 file)
+│   └── FibonacciNumber.java
 ├── graph/                       (18 files)
 │   ├── Graph.java
 │   ├── Bfs.java
@@ -335,8 +348,8 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## ✨ Quick Stats
 
-- 📦 **71** Java files with complete implementations
-- ⚡ **5** Major data structure categories
+- 📦 **72** Java files with complete implementations
+- ⚡ **6** Major data structure categories
 - 🎯 **100+** Unique problems covered
 - 💻 **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
@@ -368,4 +381,4 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: December 11, 2025*
+*Last Updated: December 13, 2025*
