@@ -2,7 +2,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class UniquePaths {
+public class UniquePathsI {
 
     // Memoization helper
     public int helper(int m, int n, int i, int j, int[][] dp) {
@@ -46,7 +46,7 @@ public class UniquePaths {
         int m = sc.nextInt();
         int n = sc.nextInt();
 
-        UniquePaths obj = new UniquePaths();
+        UniquePathsI obj = new UniquePathsI();
         System.out.println(obj.uniquePaths(m, n));
 
         sc.close();
