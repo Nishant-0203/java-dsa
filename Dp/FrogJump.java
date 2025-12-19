@@ -1,3 +1,4 @@
+// https://www.geeksforgeeks.org/problems/geek-jump/1
 import java.util.Scanner;
 
 public class FrogJump {

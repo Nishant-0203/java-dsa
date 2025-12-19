@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/climbing-stairs/description/
 import java.util.Scanner;
 
 public class TotalWaysToDistance {

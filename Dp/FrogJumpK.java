@@ -1,3 +1,4 @@
+// https://takeuforward.org/plus/dsa/problems/frog-jump-with-k-distances?tab=submissions
 import java.util.Scanner;
 
 public class FrogJumpK {
