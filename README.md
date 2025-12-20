@@ -75,13 +75,22 @@ General binary tree problems and traversals (21 files)
 
 ---
 
-## 🧮 Dynamic Programming
-Optimization problems using DP techniques (2 files)
+## 💎 Dynamic Programming
+Optimization problems using DP techniques (12 files)
 
 | File | Description |
 |------|-------------|
 | `FibonacciNumber.java` | 🔢 Fibonacci using memoization & tabulation |
+| `FrogJump.java` | 🐸 Minimum cost to reach end (frog jump problem) |
+| `FrogJumpK.java` | 🐸 Frog jump with k steps allowed |
+| `HouseRobber.java` | 🏠 Maximum money from non-adjacent houses |
+| `HouseRobberII.java` | 🏠 House robber with circular arrangement |
+| `MinPathSum.java` | 📍 Minimum path sum in grid |
+| `NinjaTraining.java` | 🥋 Maximum points in ninja training |
+| `SubsetSumProblem.java` | 🎯 Subset sum equals target |
 | `TotalWaysToDistance.java` | 🎯 Calculate total ways to reach a distance |
+| `UniquePathsI.java` | 🗺️ Count unique paths in grid |
+| `UniquePathsII.java` | 🗺️ Unique paths with obstacles |
 
 ---
 
@@ -154,11 +163,11 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | 🌳 Binary Search Tree | 13 | `.java` files |
 | 🌲 Binary Tree | 21 | `.java` files |
-| 🧮 Dynamic Programming | 2 | `.java` files |
+| 💎 Dynamic Programming | 12 | `.java` files |
 | 🕸️ Graph | 18 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **73** | **Java implementations** |
+| **🎯 TOTAL** | **83** | **Java implementations** |
 
 
 
@@ -350,7 +359,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## ✨ Quick Stats
 
-- 📦 **73** Java files with complete implementations
+- 📦 **83** Java files with complete implementations
 - ⚡ **6** Major data structure categories
 - 🎯 **100+** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
@@ -384,4 +393,4 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: December 17, 2025*
+*Last Updated: December 20, 2025*
