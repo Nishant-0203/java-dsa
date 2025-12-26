@@ -76,7 +76,7 @@ General binary tree problems and traversals (21 files)
 ---
 
 ## 💎 Dynamic Programming
-Optimization problems using DP techniques (12 files)
+Optimization problems using DP techniques (13 files)
 
 | File | Description |
 |------|-------------|
@@ -88,6 +88,7 @@ Optimization problems using DP techniques (12 files)
 | `MinPathSum.java` | 📍 Minimum path sum in grid |
 | `NinjaTraining.java` | 🥋 Maximum points in ninja training |
 | `SubsetSumProblem.java` | 🎯 Subset sum equals target |
+| `PartitionEqualSubsetSum.java` | ⚖️ Partition array into two equal sum subsets |
 | `TotalWaysToDistance.java` | 🎯 Calculate total ways to reach a distance |
 | `UniquePathsI.java` | 🗺️ Count unique paths in grid |
 | `UniquePathsII.java` | 🗺️ Unique paths with obstacles |
@@ -163,11 +164,11 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | 🌳 Binary Search Tree | 13 | `.java` files |
 | 🌲 Binary Tree | 21 | `.java` files |
-| 💎 Dynamic Programming | 12 | `.java` files |
+| 💎 Dynamic Programming | 13 | `.java` files |
 | 🕸️ Graph | 18 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **83** | **Java implementations** |
+| **🎯 TOTAL** | **84** | **Java implementations** |
 
 
 
@@ -359,7 +360,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## ✨ Quick Stats
 
-- 📦 **83** Java files with complete implementations
+- 📦 **84** Java files with complete implementations
 - ⚡ **6** Major data structure categories
 - 🎯 **100+** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
@@ -393,4 +394,4 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: December 20, 2025*
+*Last Updated: December 26, 2025*
