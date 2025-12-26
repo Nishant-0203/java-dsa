@@ -76,7 +76,7 @@ General binary tree problems and traversals (21 files)
 ---
 
 ## 💎 Dynamic Programming
-Optimization problems using DP techniques (13 files)
+Optimization problems using DP techniques (18 files)
 
 | File | Description |
 |------|-------------|
@@ -89,9 +89,15 @@ Optimization problems using DP techniques (13 files)
 | `NinjaTraining.java` | 🥋 Maximum points in ninja training |
 | `SubsetSumProblem.java` | 🎯 Subset sum equals target |
 | `PartitionEqualSubsetSum.java` | ⚖️ Partition array into two equal sum subsets |
+| `PartitionsWithGivenDifference.java` | 🔢 Count partitions with given difference |
+| `PerfectSumProblem.java` | 🎯 Count subsets with given sum |
+| `TargetSum.java` | 🎯 Assign +/- to reach target sum |
+| `CoinChange.java` | 🪙 Minimum coins to make amount |
+| `CoinChangeII.java` | 🪙 Number of ways to make amount with coins |
 | `TotalWaysToDistance.java` | 🎯 Calculate total ways to reach a distance |
 | `UniquePathsI.java` | 🗺️ Count unique paths in grid |
 | `UniquePathsII.java` | 🗺️ Unique paths with obstacles |
+| `LongestCommonSubsequencePrint.java` | 📝 Print longest common subsequence |
 
 ---
 
@@ -164,11 +170,11 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | 🌳 Binary Search Tree | 13 | `.java` files |
 | 🌲 Binary Tree | 21 | `.java` files |
-| 💎 Dynamic Programming | 13 | `.java` files |
+| 💎 Dynamic Programming | 18 | `.java` files |
 | 🕸️ Graph | 18 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **84** | **Java implementations** |
+| **🎯 TOTAL** | **89** | **Java implementations** |
 
 
 
@@ -278,9 +284,11 @@ java-dsa/
 │   ├── InorderTraversal.java
 │   ├── LevelOrderTraversal.java
 │   └── ...
-├── Dp/                          (2 files)
+├── Dp/                          (18 files)
 │   ├── FibonacciNumber.java
-│   └── TotalWaysToDistance.java
+│   ├── CoinChange.java
+│   ├── TargetSum.java
+│   └── ...
 ├── graph/                       (18 files)
 │   ├── Graph.java
 │   ├── Bfs.java
@@ -360,7 +368,7 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## ✨ Quick Stats
 
-- 📦 **84** Java files with complete implementations
+- 📦 **89** Java files with complete implementations
 - ⚡ **6** Major data structure categories
 - 🎯 **100+** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
