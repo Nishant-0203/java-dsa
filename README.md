@@ -76,7 +76,7 @@ General binary tree problems and traversals (21 files)
 ---
 
 ## 💎 Dynamic Programming
-Optimization problems using DP techniques (18 files)
+Optimization problems using DP techniques (20 files)
 
 | File | Description |
 |------|-------------|
@@ -94,6 +94,8 @@ Optimization problems using DP techniques (18 files)
 | `TargetSum.java` | 🎯 Assign +/- to reach target sum |
 | `CoinChange.java` | 🪙 Minimum coins to make amount |
 | `CoinChangeII.java` | 🪙 Number of ways to make amount with coins |
+| `RodCutting.java` | ✂️ Maximum profit by cutting rod into pieces |
+| `UnboundedKnapsack.java` | 🎒 Unbounded knapsack problem (unlimited items) |
 | `TotalWaysToDistance.java` | 🎯 Calculate total ways to reach a distance |
 | `UniquePathsI.java` | 🗺️ Count unique paths in grid |
 | `UniquePathsII.java` | 🗺️ Unique paths with obstacles |
@@ -170,11 +172,11 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | 🌳 Binary Search Tree | 13 | `.java` files |
 | 🌲 Binary Tree | 21 | `.java` files |
-| 💎 Dynamic Programming | 18 | `.java` files |
+| 💎 Dynamic Programming | 20 | `.java` files |
 | 🕸️ Graph | 18 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **89** | **Java implementations** |
+| **🎯 TOTAL** | **91** | **Java implementations** |
 
 
 
@@ -284,10 +286,11 @@ java-dsa/
 │   ├── InorderTraversal.java
 │   ├── LevelOrderTraversal.java
 │   └── ...
-├── Dp/                          (18 files)
+├── Dp/                          (20 files)
 │   ├── FibonacciNumber.java
 │   ├── CoinChange.java
-│   ├── TargetSum.java
+│   ├── RodCutting.java
+│   ├── UnboundedKnapsack.java
 │   └── ...
 ├── graph/                       (18 files)
 │   ├── Graph.java
@@ -368,9 +371,9 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## ✨ Quick Stats
 
-- 📦 **89** Java files with complete implementations
+- 📦 **91** Java files with complete implementations
 - ⚡ **6** Major data structure categories
-- 🎯 **100+** Unique problems covered
+- 🎯 **90+** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
 - 🚀 **Zero setup** - Just compile and run
@@ -402,4 +405,4 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: December 26, 2025*
+*Last Updated: December 28, 2025*
