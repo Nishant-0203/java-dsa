@@ -76,7 +76,7 @@ General binary tree problems and traversals (21 files)
 ---
 
 ## 💎 Dynamic Programming
-Optimization problems using DP techniques (20 files)
+Optimization problems using DP techniques (22 files)
 
 | File | Description |
 |------|-------------|
@@ -92,6 +92,8 @@ Optimization problems using DP techniques (20 files)
 | `PartitionsWithGivenDifference.java` | 🔢 Count partitions with given difference |
 | `PerfectSumProblem.java` | 🎯 Count subsets with given sum |
 | `TargetSum.java` | 🎯 Assign +/- to reach target sum |
+| `DistinctSubsequences.java` | 🔤 Count distinct subsequences of string in another |
+| `EditDistance.java` | ✏️ Minimum operations to convert one string to another |
 | `CoinChange.java` | 🪙 Minimum coins to make amount |
 | `CoinChangeII.java` | 🪙 Number of ways to make amount with coins |
 | `RodCutting.java` | ✂️ Maximum profit by cutting rod into pieces |
@@ -172,11 +174,11 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | 🌳 Binary Search Tree | 13 | `.java` files |
 | 🌲 Binary Tree | 21 | `.java` files |
-| 💎 Dynamic Programming | 20 | `.java` files |
+| 💎 Dynamic Programming | 22 | `.java` files |
 | 🕸️ Graph | 18 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **91** | **Java implementations** |
+| **🎯 TOTAL** | **93** | **Java implementations** |
 
 
 
@@ -286,11 +288,13 @@ java-dsa/
 │   ├── InorderTraversal.java
 │   ├── LevelOrderTraversal.java
 │   └── ...
-├── Dp/                          (20 files)
+├── Dp/                          (22 files)
 │   ├── FibonacciNumber.java
 │   ├── CoinChange.java
 │   ├── RodCutting.java
 │   ├── UnboundedKnapsack.java
+│   ├── EditDistance.java
+│   ├── DistinctSubsequences.java
 │   └── ...
 ├── graph/                       (18 files)
 │   ├── Graph.java
@@ -371,9 +375,9 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## ✨ Quick Stats
 
-- 📦 **91** Java files with complete implementations
+- 📦 **93** Java files with complete implementations
 - ⚡ **6** Major data structure categories
-- 🎯 **90+** Unique problems covered
+- 🎯 **93** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
 - 🚀 **Zero setup** - Just compile and run
@@ -405,4 +409,4 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: December 28, 2025*
+*Last Updated: December 29, 2025*
