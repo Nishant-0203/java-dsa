@@ -9,7 +9,7 @@ A comprehensive collection of **Data Structures and Algorithms** implementations
 - [🕸️ Graph](#-graph)
 - [📦 Heap](#-heap)
 - [🔄 Recursion & Backtracking](#-recursion--backtracking)
-- [🚀 Getting Started](#-getting-started)
+- [🚀 Getting Started](#-getting-started)   
 - [📖 Learning Path](#-learning-path)
 
 ---
