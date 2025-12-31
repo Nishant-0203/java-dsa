@@ -22,7 +22,7 @@ public class LongestCommonSubsequencePrint {
         char[]lcs=new char[len];
         int index=len-1;
         int i=n;int j=m;
-        while(i>0 &&j>0){
+        while(i>0 &&j>0){ 
             if(text1.charAt(i-1)==text2.charAt(j-1)){
                 lcs[index--]=text1.charAt(i-1);
                 i--;

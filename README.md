@@ -85,7 +85,7 @@ Optimization problems using DP techniques (22 files)
 | `FrogJumpK.java` | 🐸 Frog jump with k steps allowed |
 | `HouseRobber.java` | 🏠 Maximum money from non-adjacent houses |
 | `HouseRobberII.java` | 🏠 House robber with circular arrangement |
-| `MinPathSum.java` | 📍 Minimum path sum in grid |
+| `MinPathSum.java` | 📍 Minimum path su  m in grid |
 | `NinjaTraining.java` | 🥋 Maximum points in ninja training |
 | `SubsetSumProblem.java` | 🎯 Subset sum equals target |
 | `PartitionEqualSubsetSum.java` | ⚖️ Partition array into two equal sum subsets |
