@@ -76,7 +76,7 @@ General binary tree problems and traversals (21 files)
 ---
 
 ## 💎 Dynamic Programming
-Optimization problems using DP techniques (22 files)
+Optimization problems using DP techniques (25 files)
 
 | File | Description |
 |------|-------------|
@@ -92,6 +92,10 @@ Optimization problems using DP techniques (22 files)
 | `PartitionsWithGivenDifference.java` | 🔢 Count partitions with given difference |
 | `PerfectSumProblem.java` | 🎯 Count subsets with given sum |
 | `TargetSum.java` | 🎯 Assign +/- to reach target sum |
+| `LongestCommonSubsequence.java` | 🔤 Find longest common subsequence of two strings |
+| `LongestCommonSubsequencePrint.java` | 📝 Print longest common subsequence |
+| `LongestCommonSubstring.java` | 🔤 Find longest common substring of two strings |
+| `ShortestCommonSupersequence.java` | 🔤 Find shortest string containing both sequences |
 | `DistinctSubsequences.java` | 🔤 Count distinct subsequences of string in another |
 | `EditDistance.java` | ✏️ Minimum operations to convert one string to another |
 | `CoinChange.java` | 🪙 Minimum coins to make amount |
@@ -101,7 +105,6 @@ Optimization problems using DP techniques (22 files)
 | `TotalWaysToDistance.java` | 🎯 Calculate total ways to reach a distance |
 | `UniquePathsI.java` | 🗺️ Count unique paths in grid |
 | `UniquePathsII.java` | 🗺️ Unique paths with obstacles |
-| `LongestCommonSubsequencePrint.java` | 📝 Print longest common subsequence |
 
 ---
 
@@ -174,11 +177,11 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | 🌳 Binary Search Tree | 13 | `.java` files |
 | 🌲 Binary Tree | 21 | `.java` files |
-| 💎 Dynamic Programming | 22 | `.java` files |
+| 💎 Dynamic Programming | 25 | `.java` files |
 | 🕸️ Graph | 18 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **93** | **Java implementations** |
+| **🎯 TOTAL** | **96** | **Java implementations** |
 
 
 
@@ -375,9 +378,9 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ## ✨ Quick Stats
 
-- 📦 **93** Java files with complete implementations
+- 📦 **96** Java files with complete implementations
 - ⚡ **6** Major data structure categories
-- 🎯 **93** Unique problems covered
+- 🎯 **96** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
 - 🚀 **Zero setup** - Just compile and run
@@ -409,4 +412,4 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: December 29, 2025*
+*Last Updated: January 1, 2026*
