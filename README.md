@@ -76,7 +76,7 @@ General binary tree problems and traversals (21 files)
 ---
 
 ## 💎 Dynamic Programming
-Optimization problems using DP techniques (25 files)
+Optimization problems using DP techniques (26 files)
 
 | File | Description |
 |------|-------------|
@@ -85,7 +85,7 @@ Optimization problems using DP techniques (25 files)
 | `FrogJumpK.java` | 🐸 Frog jump with k steps allowed |
 | `HouseRobber.java` | 🏠 Maximum money from non-adjacent houses |
 | `HouseRobberII.java` | 🏠 House robber with circular arrangement |
-| `MinPathSum.java` | 📍 Minimum path su  m in grid |
+| `MinPathSum.java` | 📍 Minimum path sum in grid |
 | `NinjaTraining.java` | 🥋 Maximum points in ninja training |
 | `SubsetSumProblem.java` | 🎯 Subset sum equals target |
 | `PartitionEqualSubsetSum.java` | ⚖️ Partition array into two equal sum subsets |
@@ -98,6 +98,8 @@ Optimization problems using DP techniques (25 files)
 | `ShortestCommonSupersequence.java` | 🔤 Find shortest string containing both sequences |
 | `DistinctSubsequences.java` | 🔤 Count distinct subsequences of string in another |
 | `EditDistance.java` | ✏️ Minimum operations to convert one string to another |
+| `DeleteOperationForTwoStrings.java` | ❌ Minimum deletions to make two strings equal |
+| `MinimumInsertionStepsToMakeAStringPalindrome.java` | 🔄 Minimum insertions to make string palindrome |
 | `CoinChange.java` | 🪙 Minimum coins to make amount |
 | `CoinChangeII.java` | 🪙 Number of ways to make amount with coins |
 | `RodCutting.java` | ✂️ Maximum profit by cutting rod into pieces |
@@ -177,11 +179,11 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | 🌳 Binary Search Tree | 13 | `.java` files |
 | 🌲 Binary Tree | 21 | `.java` files |
-| 💎 Dynamic Programming | 25 | `.java` files |
+| 💎 Dynamic Programming | 26 | `.java` files |
 | 🕸️ Graph | 18 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **96** | **Java implementations** |
+| **🎯 TOTAL** | **97** | **Java implementations** |
 
 
 
@@ -291,13 +293,15 @@ java-dsa/
 │   ├── InorderTraversal.java
 │   ├── LevelOrderTraversal.java
 │   └── ...
-├── Dp/                          (22 files)
+├── Dp/                          (26 files)
 │   ├── FibonacciNumber.java
 │   ├── CoinChange.java
 │   ├── RodCutting.java
 │   ├── UnboundedKnapsack.java
 │   ├── EditDistance.java
 │   ├── DistinctSubsequences.java
+│   ├── DeleteOperationForTwoStrings.java
+│   ├── MinimumInsertionStepsToMakeAStringPalindrome.java
 │   └── ...
 ├── graph/                       (18 files)
 │   ├── Graph.java
@@ -376,9 +380,9 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ---
 
-## ✨ Quick Stats
-
-- 📦 **96** Java files with complete implementations
+## ✨ Qui7** Java files with complete implementations
+- ⚡ **6** Major data structure categories
+- 🎯 **97** Java files with complete implementations
 - ⚡ **6** Major data structure categories
 - 🎯 **96** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
