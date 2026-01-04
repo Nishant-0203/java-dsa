@@ -129,6 +129,8 @@ Graph representations and classic algorithms (18 files)
 | `CourseSchedule.java` | 📚 Course scheduling (detect if possible - Topo Sort) |
 | `CourseScheduleII.java` | 📚 Course scheduling with order (Topological Sort) |
 | `DijkstraShortestPath.java` | 🚀 Dijkstra's algorithm for weighted graphs |
+| `BellmanFordAlgorithm.java` | ⚡ Bellman-Ford algorithm for negative weights |
+| `FloydWarshall.java` | 🌐 Floyd-Warshall all-pairs shortest path algorithm |
 | `ShortestPathDAG.java` | 📍 Shortest path in Directed Acyclic Graph |
 | `ShortestPathInUnweightedGraph.java` | 📍 Shortest path in unweighted graph (BFS) |
 | `FindCircleNum.java` | 🌐 Find number of connected components (provinces) |
@@ -140,13 +142,15 @@ Graph representations and classic algorithms (18 files)
 ---
 
 ## 🎯 Greedy Algorithms
-Greedy algorithm problems and optimization techniques (3 files)
+Greedy algorithm problems and optimization techniques (5 files)
 
 | File | Description |
 |------|-------------|
 | `AssignCookies.java` | 🍪 Assign cookies to children to maximize satisfaction |
 | `LemonadeChange.java` | 🍋 Check if correct change can be given to all customers |
 | `MinimumAverageWaitingTime.java` | ⏱️ Minimize average waiting time for customers |
+| `JumpGame.java` | 🎯 Determine if you can reach the last index |
+| `JumpGameII.java` | 🚀 Find minimum number of jumps to reach the last index |
 
 ---
 
@@ -192,11 +196,11 @@ Classic recursion and backtracking problems (11 files)
 | 🌳 Binary Search Tree | 13 | `.java` files |
 | 🌲 Binary Tree | 21 | `.java` files |
 | 💎 Dynamic Programming | 26 | `.java` files |
-| 🕸️ Graph | 18 | `.java` files |
-| 🎯 Greedy Algorithms | 3 | `.java` files |
+| 🕸️ Graph | 20 | `.java` files |
+| 🎯 Greedy Algorithms | 5 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **100** | **Java implementations** |
+| **🎯 TOTAL** | **104** | **Java implementations** |
 
 
 
@@ -280,8 +284,8 @@ java SearchBST
 ### 🔥 Most Asked Problems
 - 🌲 **Trees**: LCA, Diameter, Serialize/Deserialize, Balanced Tree
 - 🌳 **BST**: Search, Insert, Delete, Kth Smallest
-- 🕸️ **Graphs**: Dijkstra's Algorithm, Topological Sort, Shortest Path (DAG/Unweighted), Course Schedule, Cycle Detection, Number of Islands, Bipartite Check
-- 🎯 **Greedy**: Assign Cookies, Lemonade Change, Minimum Waiting Time
+- 🕸️ **Graphs**: Dijkstra's Algorithm, Bellman-Ford, Floyd-Warshall, Topological Sort, Shortest Path (DAG/Unweighted), Course Schedule, Cycle Detection, Number of Islands, Bipartite Check
+- 🎯 **Greedy**: Assign Cookies, Lemonade Change, Jump Game, Jump Game II, Minimum Waiting Time
 - 🔄 **Backtracking**: Subsets, Permutations, Combinations, N-Queens
 - 📦 **Heap**: Kth Largest, Merge K Lists
 
@@ -318,7 +322,7 @@ java-dsa/
 │   ├── DeleteOperationForTwoStrings.java
 │   ├── MinimumInsertionStepsToMakeAStringPalindrome.java
 │   └── ...
-├── graph/                       (18 files)
+├── graph/                       (20 files)
 │   ├── Graph.java
 │   ├── Bfs.java
 │   ├── Dfs.java
@@ -329,11 +333,15 @@ java-dsa/
 │   ├── CourseSchedule.java
 │   ├── CourseScheduleII.java
 │   ├── DijkstraShortestPath.java
+│   ├── BellmanFordAlgorithm.java
+│   ├── FloydWarshall.java
 │   ├── ShortestPathDAG.java
 │   ├── ShortestPathInUnweightedGraph.java
 │   ├── CountDistinctIslands.java
-│   Gready/                      (3 files)
+│   Gready/                      (5 files)
 │   ├── AssignCookies.java
+│   ├── JumpGame.java
+│   ├── JumpGameII.java
 │   ├── LemonadeChange.java
 │   └── MinimumAverageWaitingTime.java
 ├── └── ...
@@ -399,10 +407,9 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ---
 ck Stats
-- 🎯 **100** Java files with complete implementations
+- 🎯 **104** Java files with complete implementations
 - ⚡ **7** Major data structure categories
-- 🎯 **100 Major data structure categories
-- 🎯 **96** Unique problems covered
+- 🎯 **100** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
 - 🚀 **Zero setup** - Just compile and run
