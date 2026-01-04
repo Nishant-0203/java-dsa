@@ -7,6 +7,7 @@ A comprehensive collection of **Data Structures and Algorithms** implementations
 - [🌲 Binary Tree](#-binary-tree)
 - [💎 Dynamic Programming](#-dynamic-programming)
 - [🕸️ Graph](#-graph)
+- [🎯 Greedy Algorithms](#-greedy-algorithms)
 - [📦 Heap](#-heap)
 - [🔄 Recursion & Backtracking](#-recursion--backtracking)
 - [🚀 Getting Started](#-getting-started)   
@@ -138,6 +139,17 @@ Graph representations and classic algorithms (18 files)
 
 ---
 
+## 🎯 Greedy Algorithms
+Greedy algorithm problems and optimization techniques (3 files)
+
+| File | Description |
+|------|-------------|
+| `AssignCookies.java` | 🍪 Assign cookies to children to maximize satisfaction |
+| `LemonadeChange.java` | 🍋 Check if correct change can be given to all customers |
+| `MinimumAverageWaitingTime.java` | ⏱️ Minimize average waiting time for customers |
+
+---
+
 ## 📦 Heap
 Heap data structure and priority queue problems (8 files)
 
@@ -181,9 +193,10 @@ Classic recursion and backtracking problems (11 files)
 | 🌲 Binary Tree | 21 | `.java` files |
 | 💎 Dynamic Programming | 26 | `.java` files |
 | 🕸️ Graph | 18 | `.java` files |
+| 🎯 Greedy Algorithms | 3 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **97** | **Java implementations** |
+| **🎯 TOTAL** | **100** | **Java implementations** |
 
 
 
@@ -256,8 +269,9 @@ java SearchBST
 
 ### 🔴 Advanced
 7. 🕸️ **Graph Algorithms** - BFS, DFS, Cycle Detection
-8. 🎯 **Complex Backtracking** - `NQueens.java`, `SudokuSolver.java`
-9. 💼 **Interview Problems** - All problem files with tricky cases
+8. 🎯 **Greedy Algorithms** - `AssignCookies.java`, `LemonadeChange.java`
+9. 🎯 **Complex Backtracking** - `NQueens.java`, `SudokuSolver.java`
+10. 💼 **Interview Problems** - All problem files with tricky cases
 
 ---
 
@@ -267,6 +281,7 @@ java SearchBST
 - 🌲 **Trees**: LCA, Diameter, Serialize/Deserialize, Balanced Tree
 - 🌳 **BST**: Search, Insert, Delete, Kth Smallest
 - 🕸️ **Graphs**: Dijkstra's Algorithm, Topological Sort, Shortest Path (DAG/Unweighted), Course Schedule, Cycle Detection, Number of Islands, Bipartite Check
+- 🎯 **Greedy**: Assign Cookies, Lemonade Change, Minimum Waiting Time
 - 🔄 **Backtracking**: Subsets, Permutations, Combinations, N-Queens
 - 📦 **Heap**: Kth Largest, Merge K Lists
 
@@ -317,7 +332,11 @@ java-dsa/
 │   ├── ShortestPathDAG.java
 │   ├── ShortestPathInUnweightedGraph.java
 │   ├── CountDistinctIslands.java
-│   └── ...
+│   Gready/                      (3 files)
+│   ├── AssignCookies.java
+│   ├── LemonadeChange.java
+│   └── MinimumAverageWaitingTime.java
+├── └── ...
 ├── Heap/                        (8 files)
 │   ├── Heap.java
 │   ├── KthLargestElement.java
@@ -379,11 +398,10 @@ Contributions are welcome! Feel free to:
 This repository is for **educational purposes only**. Feel free to use, learn, and modify.
 
 ---
-
-## ✨ Qui7** Java files with complete implementations
-- ⚡ **6** Major data structure categories
-- 🎯 **97** Java files with complete implementations
-- ⚡ **6** Major data structure categories
+ck Stats
+- 🎯 **100** Java files with complete implementations
+- ⚡ **7** Major data structure categories
+- 🎯 **100 Major data structure categories
 - 🎯 **96** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
