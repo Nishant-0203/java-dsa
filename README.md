@@ -142,7 +142,7 @@ Graph representations and classic algorithms (18 files)
 ---
 
 ## 🎯 Greedy Algorithms
-Greedy algorithm problems and optimization techniques (5 files)
+Greedy algorithm problems and optimization techniques (8 files)
 
 | File | Description |
 |------|-------------|
@@ -151,6 +151,9 @@ Greedy algorithm problems and optimization techniques (5 files)
 | `MinimumAverageWaitingTime.java` | ⏱️ Minimize average waiting time for customers |
 | `JumpGame.java` | 🎯 Determine if you can reach the last index |
 | `JumpGameII.java` | 🚀 Find minimum number of jumps to reach the last index |
+| `JobSequencingProblem.java` | 💼 Schedule jobs to maximize profit with deadlines |
+| `NMeetingsInOneRoom.java` | 🏢 Maximum meetings that can be scheduled in one room |
+| `NonOverlappingIntervals.java` | 📅 Minimum intervals to remove to make non-overlapping |
 
 ---
 
@@ -197,10 +200,10 @@ Classic recursion and backtracking problems (11 files)
 | 🌲 Binary Tree | 21 | `.java` files |
 | 💎 Dynamic Programming | 26 | `.java` files |
 | 🕸️ Graph | 20 | `.java` files |
-| 🎯 Greedy Algorithms | 5 | `.java` files |
+| 🎯 Greedy Algorithms | 8 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **104** | **Java implementations** |
+| **🎯 TOTAL** | **107** | **Java implementations** |
 
 
 
@@ -285,7 +288,7 @@ java SearchBST
 - 🌲 **Trees**: LCA, Diameter, Serialize/Deserialize, Balanced Tree
 - 🌳 **BST**: Search, Insert, Delete, Kth Smallest
 - 🕸️ **Graphs**: Dijkstra's Algorithm, Bellman-Ford, Floyd-Warshall, Topological Sort, Shortest Path (DAG/Unweighted), Course Schedule, Cycle Detection, Number of Islands, Bipartite Check
-- 🎯 **Greedy**: Assign Cookies, Lemonade Change, Jump Game, Jump Game II, Minimum Waiting Time
+- 🎯 **Greedy**: Assign Cookies, Lemonade Change, Jump Game, Job Sequencing, N Meetings, Non-Overlapping Intervals
 - 🔄 **Backtracking**: Subsets, Permutations, Combinations, N-Queens
 - 📦 **Heap**: Kth Largest, Merge K Lists
 
@@ -338,12 +341,15 @@ java-dsa/
 │   ├── ShortestPathDAG.java
 │   ├── ShortestPathInUnweightedGraph.java
 │   ├── CountDistinctIslands.java
-│   Gready/                      (5 files)
+│   Gready/                      (8 files)
 │   ├── AssignCookies.java
 │   ├── JumpGame.java
 │   ├── JumpGameII.java
 │   ├── LemonadeChange.java
-│   └── MinimumAverageWaitingTime.java
+│   ├── MinimumAverageWaitingTime.java
+│   ├── JobSequencingProblem.java
+│   ├── NMeetingsInOneRoom.java
+│   └── NonOverlappingIntervals.java
 ├── └── ...
 ├── Heap/                        (8 files)
 │   ├── Heap.java
@@ -407,9 +413,9 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ---
 ck Stats
-- 🎯 **104** Java files with complete implementations
+- 🎯 **107** Java files with complete implementations
 - ⚡ **7** Major data structure categories
-- 🎯 **100** Unique problems covered
+- 🎯 **103** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
 - 🚀 **Zero setup** - Just compile and run
@@ -417,6 +423,11 @@ ck Stats
 ---
 
 ## 🆕 Recent Additions
+
+### 🎯 Greedy Algorithms (Latest Updates - January 2026)
+- ✅ 💼 `JobSequencingProblem.java` - Schedule jobs to maximize profit with deadlines
+- ✅ 🏢 `NMeetingsInOneRoom.java` - Maximum meetings that can be scheduled in one room
+- ✅ 📅 `NonOverlappingIntervals.java` - Minimum intervals to remove to make non-overlapping
 
 ### 🕸️ Graph Algorithms (Latest Updates - December 2025)
 - ✅ 🚀 `DijkstraShortestPath.java` - **Dijkstra's algorithm** for weighted graphs (Priority Queue)
