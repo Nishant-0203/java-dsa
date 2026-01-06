@@ -142,7 +142,7 @@ Graph representations and classic algorithms (18 files)
 ---
 
 ## 🎯 Greedy Algorithms
-Greedy algorithm problems and optimization techniques (8 files)
+Greedy algorithm problems and optimization techniques (10 files)
 
 | File | Description |
 |------|-------------|
@@ -154,6 +154,8 @@ Greedy algorithm problems and optimization techniques (8 files)
 | `JobSequencingProblem.java` | 💼 Schedule jobs to maximize profit with deadlines |
 | `NMeetingsInOneRoom.java` | 🏢 Maximum meetings that can be scheduled in one room |
 | `NonOverlappingIntervals.java` | 📅 Minimum intervals to remove to make non-overlapping |
+| `FractionalKnapsack.java` | 🎒 Fractional knapsack problem - maximize value with weight constraint |
+| `ValidParenthesisString.java` | ✅ Validate parenthesis string with wildcards |
 
 ---
 
@@ -200,10 +202,10 @@ Classic recursion and backtracking problems (11 files)
 | 🌲 Binary Tree | 21 | `.java` files |
 | 💎 Dynamic Programming | 26 | `.java` files |
 | 🕸️ Graph | 20 | `.java` files |
-| 🎯 Greedy Algorithms | 8 | `.java` files |
+| 🎯 Greedy Algorithms | 10 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **107** | **Java implementations** |
+| **🎯 TOTAL** | **109** | **Java implementations** |
 
 
 
@@ -341,7 +343,7 @@ java-dsa/
 │   ├── ShortestPathDAG.java
 │   ├── ShortestPathInUnweightedGraph.java
 │   ├── CountDistinctIslands.java
-│   Gready/                      (8 files)
+│   Gready/                      (10 files)
 │   ├── AssignCookies.java
 │   ├── JumpGame.java
 │   ├── JumpGameII.java
@@ -349,7 +351,9 @@ java-dsa/
 │   ├── MinimumAverageWaitingTime.java
 │   ├── JobSequencingProblem.java
 │   ├── NMeetingsInOneRoom.java
-│   └── NonOverlappingIntervals.java
+│   ├── NonOverlappingIntervals.java
+│   ├── FractionalKnapsack.java
+│   └── ValidParenthesisString.java
 ├── └── ...
 ├── Heap/                        (8 files)
 │   ├── Heap.java
@@ -413,9 +417,9 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ---
 ck Stats
-- 🎯 **107** Java files with complete implementations
+- 🎯 **109** Java files with complete implementations
 - ⚡ **7** Major data structure categories
-- 🎯 **103** Unique problems covered
+- 🎯 **105** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
 - 🚀 **Zero setup** - Just compile and run
@@ -425,6 +429,8 @@ ck Stats
 ## 🆕 Recent Additions
 
 ### 🎯 Greedy Algorithms (Latest Updates - January 2026)
+- ✅ 🎒 `FractionalKnapsack.java` - Fractional knapsack problem - maximize value with weight constraint
+- ✅ ✅ `ValidParenthesisString.java` - Validate parenthesis string with wildcards
 - ✅ 💼 `JobSequencingProblem.java` - Schedule jobs to maximize profit with deadlines
 - ✅ 🏢 `NMeetingsInOneRoom.java` - Maximum meetings that can be scheduled in one room
 - ✅ 📅 `NonOverlappingIntervals.java` - Minimum intervals to remove to make non-overlapping
