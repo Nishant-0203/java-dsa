@@ -142,15 +142,18 @@ Graph representations and classic algorithms (18 files)
 ---
 
 ## 🎯 Greedy Algorithms
-Greedy algorithm problems and optimization techniques (10 files)
+Greedy algorithm problems and optimization techniques (13 files)
 
 | File | Description |
 |------|-------------|
 | `AssignCookies.java` | 🍪 Assign cookies to children to maximize satisfaction |
+| `Candy.java` | 🍬 Minimum candies to distribute to children with ratings |
 | `LemonadeChange.java` | 🍋 Check if correct change can be given to all customers |
 | `MinimumAverageWaitingTime.java` | ⏱️ Minimize average waiting time for customers |
+| `MinimumPlatforms.java` | 🚉 Minimum platforms required for railway station |
 | `JumpGame.java` | 🎯 Determine if you can reach the last index |
 | `JumpGameII.java` | 🚀 Find minimum number of jumps to reach the last index |
+| `InsertInterval.java` | 📅 Insert a new interval and merge if necessary |
 | `JobSequencingProblem.java` | 💼 Schedule jobs to maximize profit with deadlines |
 | `NMeetingsInOneRoom.java` | 🏢 Maximum meetings that can be scheduled in one room |
 | `NonOverlappingIntervals.java` | 📅 Minimum intervals to remove to make non-overlapping |
@@ -202,10 +205,10 @@ Classic recursion and backtracking problems (11 files)
 | 🌲 Binary Tree | 21 | `.java` files |
 | 💎 Dynamic Programming | 26 | `.java` files |
 | 🕸️ Graph | 20 | `.java` files |
-| 🎯 Greedy Algorithms | 10 | `.java` files |
+| 🎯 Greedy Algorithms | 13 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **109** | **Java implementations** |
+| **🎯 TOTAL** | **112** | **Java implementations** |
 
 
 
@@ -417,9 +420,9 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ---
 ck Stats
-- 🎯 **109** Java files with complete implementations
+- 🎯 **112** Java files with complete implementations
 - ⚡ **7** Major data structure categories
-- 🎯 **105** Unique problems covered
+- 🎯 **108** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
 - 🚀 **Zero setup** - Just compile and run
@@ -429,7 +432,10 @@ ck Stats
 ## 🆕 Recent Additions
 
 ### 🎯 Greedy Algorithms (Latest Updates - January 2026)
-- ✅ 🎒 `FractionalKnapsack.java` - Fractional knapsack problem - maximize value with weight constraint
+- ✅ � `Candy.java` - Minimum candies to distribute to children with ratings
+- ✅ 🚉 `MinimumPlatforms.java` - Minimum platforms required for railway station
+- ✅ 📅 `InsertInterval.java` - Insert a new interval and merge if necessary
+- ✅ �🎒 `FractionalKnapsack.java` - Fractional knapsack problem - maximize value with weight constraint
 - ✅ ✅ `ValidParenthesisString.java` - Validate parenthesis string with wildcards
 - ✅ 💼 `JobSequencingProblem.java` - Schedule jobs to maximize profit with deadlines
 - ✅ 🏢 `NMeetingsInOneRoom.java` - Maximum meetings that can be scheduled in one room
@@ -458,4 +464,4 @@ ck Stats
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: January 1, 2026*
+*Last Updated: January 10, 2026*
