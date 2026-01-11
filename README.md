@@ -77,11 +77,12 @@ General binary tree problems and traversals (21 files)
 ---
 
 ## 💎 Dynamic Programming
-Optimization problems using DP techniques (26 files)
+Optimization problems using DP techniques (27 files)
 
 | File | Description |
 |------|-------------|
 | `FibonacciNumber.java` | 🔢 Fibonacci using memoization & tabulation |
+| `NthTribonacciNumber.java` | 🔢 Nth Tribonacci number using dynamic programming |
 | `FrogJump.java` | 🐸 Minimum cost to reach end (frog jump problem) |
 | `FrogJumpK.java` | 🐸 Frog jump with k steps allowed |
 | `HouseRobber.java` | 🏠 Maximum money from non-adjacent houses |
@@ -203,12 +204,12 @@ Classic recursion and backtracking problems (11 files)
 |----------|-------|-------|
 | 🌳 Binary Search Tree | 13 | `.java` files |
 | 🌲 Binary Tree | 21 | `.java` files |
-| 💎 Dynamic Programming | 26 | `.java` files |
+| 💎 Dynamic Programming | 27 | `.java` files |
 | 🕸️ Graph | 20 | `.java` files |
 | 🎯 Greedy Algorithms | 13 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **112** | **Java implementations** |
+| **🎯 TOTAL** | **113** | **Java implementations** |
 
 
 
@@ -320,8 +321,9 @@ java-dsa/
 │   ├── InorderTraversal.java
 │   ├── LevelOrderTraversal.java
 │   └── ...
-├── Dp/                          (26 files)
+├── Dp/                          (27 files)
 │   ├── FibonacciNumber.java
+│   ├── NthTribonacciNumber.java
 │   ├── CoinChange.java
 │   ├── RodCutting.java
 │   ├── UnboundedKnapsack.java
@@ -420,9 +422,9 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ---
 ck Stats
-- 🎯 **112** Java files with complete implementations
+- 🎯 **113** Java files with complete implementations
 - ⚡ **7** Major data structure categories
-- 🎯 **108** Unique problems covered
+- 🎯 **109** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
 - 🚀 **Zero setup** - Just compile and run
@@ -464,4 +466,4 @@ ck Stats
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: January 10, 2026*
+*Last Updated: January 11, 2026*
