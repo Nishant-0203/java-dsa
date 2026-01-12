@@ -37,7 +37,7 @@ Implementation of various BST operations and problems (13 files)
 ---
 
 ## 🌲 Binary Tree
-General binary tree problems and traversals (21 files)
+General binary tree problems and traversals (22 files)
 
 ### 🔄 Traversals
 | File | Description |
@@ -73,11 +73,12 @@ General binary tree problems and traversals (21 files)
 | `ConstructBinaryTreeFromPreorderAndInorderTraversal.java` | 🏗️ Build tree from preorder & inorder |
 | `ConstructBinaryTreeFromInorderAndPostorderTraversal.java` | 🏗️ Build tree from inorder & postorder |
 | `ConstructBinaryTreeFromPreorderAndPostorderTraversal.java` | 🏗️ Build tree from preorder & postorder |
+| `RecoverBinarySearchTree.java` | 🔧 Recover BST with two swapped nodes (also in Binary Tree) |
 
 ---
 
 ## 💎 Dynamic Programming
-Optimization problems using DP techniques (27 files)
+Optimization problems using DP techniques (28 files)
 
 | File | Description |
 |------|-------------|
@@ -108,11 +109,12 @@ Optimization problems using DP techniques (27 files)
 | `UnboundedKnapsack.java` | 🎒 Unbounded knapsack problem (unlimited items) |
 | `TotalWaysToDistance.java` | 🎯 Calculate total ways to reach a distance |
 | `UniquePathsI.java` | 🗺️ Count unique paths in grid |
-| `UniquePathsII.java` | 🗺️ Unique paths with obstacles |
+| `GenerateParentheses.java` | 🔤 Generate all valid parentheses combinations |
 
 ---
 
 ## 🕸️ Graph
+Graph representations and classic algorithms (22
 Graph representations and classic algorithms (18 files)
 
 | File | Description |
@@ -137,6 +139,8 @@ Graph representations and classic algorithms (18 files)
 | `FindCircleNum.java` | 🌐 Find number of connected components (provinces) |
 | `NumIslands.java` | 🏝️ Count number of islands (2D grid DFS) |
 | `CountDistinctIslands.java` | 🏝️ Count distinct islands by shape |
+| `DirectedStoring.java` | ➡️ Store directed graph using adjacency list |
+| `UndirectedStoring.java` | 🔗 Store undirected graph using adjacency list |
 | `FloodFill.java` | 🎨 Flood fill algorithm (paint bucket tool) |
 | `OrangesRotting.java` | 🍊 Minimum time for all oranges to rot (BFS) |
 
@@ -203,13 +207,13 @@ Classic recursion and backtracking problems (11 files)
 | Category | Count | Files |
 |----------|-------|-------|
 | 🌳 Binary Search Tree | 13 | `.java` files |
-| 🌲 Binary Tree | 21 | `.java` files |
-| 💎 Dynamic Programming | 27 | `.java` files |
-| 🕸️ Graph | 20 | `.java` files |
+| 🌲 Binary Tree | 22 | `.java` files |
+| 💎 Dynamic Programming | 28 | `.java` files |
+| 🕸️ Graph | 22 | `.java` files |
 | 🎯 Greedy Algorithms | 13 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **113** | **Java implementations** |
+| **🎯 TOTAL** | **117** | **Java implementations** |
 
 
 
@@ -317,11 +321,11 @@ java-dsa/
 │   ├── InsertIntoBST.java
 │   ├── DeleteNodeInBST.java
 │   └── ...
-├── Binary tree/                 (21 files)
+├── Binary tree/                 (22 files)
 │   ├── InorderTraversal.java
 │   ├── LevelOrderTraversal.java
 │   └── ...
-├── Dp/                          (27 files)
+├── Dp/                          (28 files)
 │   ├── FibonacciNumber.java
 │   ├── NthTribonacciNumber.java
 │   ├── CoinChange.java
@@ -332,7 +336,7 @@ java-dsa/
 │   ├── DeleteOperationForTwoStrings.java
 │   ├── MinimumInsertionStepsToMakeAStringPalindrome.java
 │   └── ...
-├── graph/                       (20 files)
+├── graph/                       (22 files)
 │   ├── Graph.java
 │   ├── Bfs.java
 │   ├── Dfs.java
@@ -421,7 +425,7 @@ Contributions are welcome! Feel free to:
 This repository is for **educational purposes only**. Feel free to use, learn, and modify.
 
 ---
-ck Stats
+ck Stats17
 - 🎯 **113** Java files with complete implementations
 - ⚡ **7** Major data structure categories
 - 🎯 **109** Unique problems covered
@@ -461,9 +465,11 @@ ck Stats
 - 📋 **Topological Sorting** - Essential for dependency resolution problems
 - 🔄 **Cycle Detection** - Both DFS and BFS (Kahn's) approaches
 - 📚 **Course Scheduling** - Real-world application of graph algorithms
+- 🌲 **Binary Tree** - Added `RecoverBinarySearchTree.java` for tree recovery problems
+- 💎 **Dynamic Programming** - Added `GenerateParentheses.java` for parentheses generation
 
 ---
 
 **Happy Coding! 🎯 Good luck with your interviews! 🍀**
 
-*Last Updated: January 11, 2026*
+*Last Updated: January 12, 2026*
