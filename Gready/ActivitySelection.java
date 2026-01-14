@@ -6,7 +6,7 @@ public class ActivitySelection {
 
     // Print the starting time of selected activities in sorted order
     public static void activitySelection(int[] start, int[] finish) {
-
+ 
         int n = start.length;
         int[][] act = new int[n][2];
 

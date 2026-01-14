@@ -9,7 +9,7 @@ public class TotalWaysToDistance {
 
         for (int i = 1; i <= d; i++) {
             for (int j = 1; j <= k; j++) {
-                if (i - j >= 0) {
+                if (i - j >= 0) { 
                     dp[i] += dp[i - j];
                 }
             }

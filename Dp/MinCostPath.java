@@ -6,7 +6,7 @@ public class MinCostPath {
 
     public static int minCostPath(int[][] cost, int m, int n) {
 
-        int[][] dp = new int[m][n];
+        int[][] dp = new int[m][n]; 
 
         // Base case
         dp[0][0] = cost[0][0];
