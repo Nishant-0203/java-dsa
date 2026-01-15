@@ -185,7 +185,7 @@ Heap data structure and priority queue problems (8 files)
 ---
 
 ## 🔄 Recursion & Backtracking
-Classic recursion and backtracking problems (11 files)
+Classic recursion and backtracking problems (12 files)
 
 | File | Description |
 |------|-------------|
@@ -196,6 +196,7 @@ Classic recursion and backtracking problems (11 files)
 | `CombinationSumII.java` | 🎲 Combination sum with each element used once |
 | `LetterCombinations.java` | 📱 Phone number letter combinations |
 | `PalindromePartitioning.java` | 🔤 Partition string into palindromes |
+| `CountOccurencesOfAWordIn2DArray.java` | 🔍 Find all occurrences of a word in 2D grid |
 | `NQueens.java` | ♛ N-Queens problem (all solutions) |
 | `TotalNQueens.java` | ♛ Count total N-Queens solutions |
 | `SudokuSolver.java` | 🧩 Solve Sudoku puzzle |
@@ -213,8 +214,8 @@ Classic recursion and backtracking problems (11 files)
 | 🕸️ Graph | 22 | `.java` files |
 | 🎯 Greedy Algorithms | 14 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
-| 🔄 Recursion & Backtracking | 11 | `.java` files |
-| **🎯 TOTAL** | **118** | **Java implementations** |
+| 🔄 Recursion & Backtracking | 12 | `.java` files |
+| **🎯 TOTAL** | **119** | **Java implementations** |
 
 
 
@@ -431,9 +432,9 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ---
 ## 📊 Quick Stats
-- 🎯 **118** Java files with complete implementations
+- 🎯 **119** Java files with complete implementations
 - ⚡ **7** Major data structure categories
-- 🎯 **118** Unique problems covered
+- 🎯 **119** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
 - 🚀 **Zero setup** - Just compile and run
