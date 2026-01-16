@@ -6,7 +6,7 @@ public class ActivitySelection {
 
     // Print the starting time of selected activities in sorted order
     public static void activitySelection(int[] start, int[] finish) {
- 
+
         int n = start.length;
         int[][] act = new int[n][2];
 
@@ -31,7 +31,7 @@ public class ActivitySelection {
             }
         }
 
-        // GFG expects output in sorted order of start times
+        // GFG requires output sorted by start time
         Collections.sort(res);
 
         for (int x : res) {
