@@ -114,8 +114,7 @@ Optimization problems using DP techniques (28 files)
 ---
 
 ## 🕸️ Graph
-Graph representations and classic algorithms (22
-Graph representations and classic algorithms (18 files)
+Graph representations and classic algorithms (23 files)
 
 | File | Description |
 |------|-------------|
@@ -136,11 +135,10 @@ Graph representations and classic algorithms (18 files)
 | `FloydWarshall.java` | 🌐 Floyd-Warshall all-pairs shortest path algorithm |
 | `ShortestPathDAG.java` | 📍 Shortest path in Directed Acyclic Graph |
 | `ShortestPathInUnweightedGraph.java` | 📍 Shortest path in unweighted graph (BFS) |
+| `PathExistsInGraph.java` | 🔍 Check if path exists between two nodes |
 | `FindCircleNum.java` | 🌐 Find number of connected components (provinces) |
 | `NumIslands.java` | 🏝️ Count number of islands (2D grid DFS) |
 | `CountDistinctIslands.java` | 🏝️ Count distinct islands by shape |
-| `DirectedStoring.java` | ➡️ Store directed graph using adjacency list |
-| `UndirectedStoring.java` | 🔗 Store undirected graph using adjacency list |
 | `FloodFill.java` | 🎨 Flood fill algorithm (paint bucket tool) |
 | `OrangesRotting.java` | 🍊 Minimum time for all oranges to rot (BFS) |
 
@@ -211,11 +209,11 @@ Classic recursion and backtracking problems (12 files)
 | 🌳 Binary Search Tree | 13 | `.java` files |
 | 🌲 Binary Tree | 22 | `.java` files |
 | 💎 Dynamic Programming | 28 | `.java` files |
-| 🕸️ Graph | 22 | `.java` files |
+| 🕸️ Graph | 23 | `.java` files |
 | 🎯 Greedy Algorithms | 14 | `.java` files |
 | 📦 Heap | 8 | `.java` files |
 | 🔄 Recursion & Backtracking | 12 | `.java` files |
-| **🎯 TOTAL** | **119** | **Java implementations** |
+| **🎯 TOTAL** | **120** | **Java implementations** |
 
 
 
@@ -338,7 +336,7 @@ java-dsa/
 │   ├── DeleteOperationForTwoStrings.java
 │   ├── MinimumInsertionStepsToMakeAStringPalindrome.java
 │   └── ...
-├── graph/                       (22 files)
+├── graph/                       (23 files)
 │   ├── Graph.java
 │   ├── Bfs.java
 │   ├── Dfs.java
@@ -353,6 +351,7 @@ java-dsa/
 │   ├── FloydWarshall.java
 │   ├── ShortestPathDAG.java
 │   ├── ShortestPathInUnweightedGraph.java
+│   ├── PathExistsInGraph.java
 │   ├── CountDistinctIslands.java
 ├── Gready/                      (14 files)
 │   ├── ActivitySelection.java
@@ -374,7 +373,7 @@ java-dsa/
 │   ├── Heap.java
 │   ├── KthLargestElement.java
 │   └── ...
-├── Recurssion&backtracking/     (11 files)
+├── Recurssion&backtracking/     (12 files)
 │   ├── Subsets.java
 │   ├── NQueens.java
 │   └── ...
@@ -432,9 +431,9 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 
 ---
 ## 📊 Quick Stats
-- 🎯 **119** Java files with complete implementations
+- 🎯 **120** Java files with complete implementations
 - ⚡ **7** Major data structure categories
-- 🎯 **119** Unique problems covered
+- 🎯 **120** Unique problems covered
 - ▶️ **Ready to run** - Every file has `main()` method
 - 📚 **Self-contained** - No external dependencies
 - 🚀 **Zero setup** - Just compile and run
@@ -458,7 +457,8 @@ This repository is for **educational purposes only**. Feel free to use, learn, a
 - ✅ 🚀 `DijkstraShortestPath.java` - **Dijkstra's algorithm** for weighted graphs (Priority Queue)
 - ✅ 📍 `ShortestPathInUnweightedGraph.java` - BFS-based shortest path for unweighted graphs
 - ✅ 📍 `ShortestPathDAG.java` - Shortest path algorithm for Directed Acyclic Graph
-- ✅ 📋 `TopoSort.java` - Topological sorting for DAG (Directed Acyclic Graph)
+- ✅ � `PathExistsInGraph.java` - Check if path exists between two nodes
+- ✅ �📋 `TopoSort.java` - Topological sorting for DAG (Directed Acyclic Graph)
 - ✅ 📚 `CourseSchedule.java` - Determine if course scheduling is possible
 - ✅ 📚 `CourseScheduleII.java` - Return valid course order using Topo Sort
 - ✅ 🔄 `DetectCycleKahn.java` - Cycle detection using Kahn's algorithm (BFS-based)
