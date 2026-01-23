@@ -4,7 +4,7 @@
 
 ### *Your Complete Interview Preparation Arsenal*
 
-**120+ battle-tested implementations** | **7 core topics** | **Ready to run**
+**125+ battle-tested implementations** | **7 core topics** | **Ready to run**
 
 [Getting Started](#-getting-started) • [Learning Path](#-learning-path) • [Interview Prep](#-interview-prep)
 
@@ -179,9 +179,9 @@ Master data structures and algorithms through hands-on Java implementations. Eac
 ---
 
 ## 📦 Heap & Priority Queue
-*Efficient min/max operations* (8 implementations)
+*Efficient min/max operations* (10 implementations)
 
-🏔️ `Heap` (complete implementation) • 🔝 `KthLargestElement` • 🔻 `KthSmallestElement` • 📊 `KthLargestSubarraySum` • 🔗 `MergeKSortedLists` • ✅ `CheckBinaryHeap` • ✔️ `KSortedArrayCheck` • 🏆 `RankTransformOfArray`
+🏔️ `Heap` (complete implementation) • 🔝 `KthLargestElement` • 🔻 `KthSmallestElement` • 📊 `KthLargestSubarraySum` • 🔗 `MergeKSortedLists` • ✅ `CheckBinaryHeap` • ✔️ `KSortedArrayCheck` • 🏆 `RankTransformOfArray` • 🔥 `TopKFrequentElements` • 📝 `SortCharactersByFrequency`
 
 ---
 
@@ -307,7 +307,7 @@ Contributions welcome! Add solutions, optimize code, fix bugs, or improve docume
 🚀 **Zero Setup** - Just clone and run  
 📚 **Learn by Doing** - Each file is self-contained with examples  
 🎯 **Interview-Focused** - Real questions from top companies  
-🔥 **120+ Problems** - Covering all major DSA topics
+🔥 **125+ Problems** - Covering all major DSA topics
 
 ---
 
@@ -318,6 +318,6 @@ Contributions welcome! Add solutions, optimize code, fix bugs, or improve docume
 
 **Made with ❤️ for the coding community**
 
-*Last updated: January 21, 2026*
+*Last updated: January 23, 2026*
 
 </div>
