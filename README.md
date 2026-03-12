@@ -22,11 +22,11 @@ Master data structures and algorithms through hands-on Java implementations. Eac
 
 **🌳 Trees & Graphs**
 - Binary Search Trees (13 files)
-- Binary Trees (22 files)  
+- Binary Trees (24 files)  
 - Graph Algorithms (23 files)
 
 **💡 Problem Solving**
-- Dynamic Programming (28 files)
+- Dynamic Programming (31 files)
 - Greedy Algorithms (14 files)
 - Recursion & Backtracking (12 files)
 
@@ -70,7 +70,7 @@ Master data structures and algorithms through hands-on Java implementations. Eac
 ---
 
 ## 🌲 Binary Tree
-*From basics to advanced tree manipulation* (22 implementations)
+*From basics to advanced tree manipulation* (24 implementations)
 
 <details>
 <summary><b>🔍 Click to explore all Binary Tree problems</b></summary>
@@ -98,7 +98,7 @@ Master data structures and algorithms through hands-on Java implementations. Eac
 ---
 
 ## 💎 Dynamic Programming
-*Optimization through memoization & tabulation* (28 implementations)
+*Optimization through memoization & tabulation* (31 implementations)
 
 <details>
 <summary><b>🔍 Click to explore all DP problems</b></summary>
@@ -107,7 +107,7 @@ Master data structures and algorithms through hands-on Java implementations. Eac
 🔢 `Fibonacci` • 🔢 `NthTribonacci` • 🐸 `FrogJump` • 🐸 `FrogJumpK`
 
 **House & Grid Problems**  
-🏠 `HouseRobber` • 🏠 `HouseRobberII` • 📍 `MinPathSum` • 🥋 `NinjaTraining` • 🗺️ `UniquePaths`
+🏠 `HouseRobber` • 🏠 `HouseRobberII` • 📍 `MinPathSum` • 📍 `MinCostPath` • 🥋 `NinjaTraining` • 🗺️ `UniquePathsI` • 🗺️ `UniquePathsII`
 
 **Subset & Partition**  
 🎯 `SubsetSum` • ⚖️ `PartitionEqualSubsetSum` • 🔢 `PartitionsWithGivenDifference` • 🎯 `PerfectSum` • 🎯 `TargetSum`
@@ -119,7 +119,7 @@ Master data structures and algorithms through hands-on Java implementations. Eac
 ✏️ `EditDistance` • ❌ `DeleteOperationForTwoStrings` • 🔄 `MinimumInsertionPalindrome`
 
 **Classic Problems**  
-🪙 `CoinChange` • 🪙 `CoinChangeII` • ✂️ `RodCutting` • 🎒 `UnboundedKnapsack` • 🎒 `ZeroOneKnapsack` • 🔤 `GenerateParentheses`
+🪙 `CoinChange` • 🪙 `CoinChangeII` • ✂️ `RodCutting` • 🎒 `UnboundedKnapsack` • 🎒 `ZeroOneKnapsack` • 🔤 `GenerateParentheses` • 🔢 `TotalWaysToDistance`
 
 </details>
 
@@ -318,6 +318,6 @@ Contributions welcome! Add solutions, optimize code, fix bugs, or improve docume
 
 **Made with ❤️ for the coding community**
 
-*Last updated: January 23, 2026*
+*Last updated: March 12, 2026*
 
 </div>
