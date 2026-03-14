@@ -4,7 +4,7 @@
 
 ### *Your Complete Interview Preparation Arsenal*
 
-**125+ battle-tested implementations** | **7 core topics** | **Ready to run**
+**129+ battle-tested implementations** | **7 core topics** | **Ready to run**
 
 [Getting Started](#-getting-started) • [Learning Path](#-learning-path) • [Interview Prep](#-interview-prep)
 
@@ -26,7 +26,7 @@ Master data structures and algorithms through hands-on Java implementations. Eac
 - Graph Algorithms (23 files)
 
 **💡 Problem Solving**
-- Dynamic Programming (31 files)
+- Dynamic Programming (32 files)
 - Greedy Algorithms (14 files)
 - Recursion & Backtracking (12 files)
 
@@ -98,7 +98,7 @@ Master data structures and algorithms through hands-on Java implementations. Eac
 ---
 
 ## 💎 Dynamic Programming
-*Optimization through memoization & tabulation* (31 implementations)
+*Optimization through memoization & tabulation* (32 implementations)
 
 <details>
 <summary><b>🔍 Click to explore all DP problems</b></summary>
@@ -116,7 +116,7 @@ Master data structures and algorithms through hands-on Java implementations. Eac
 🔤 `LongestCommonSubsequence` • 📝 `LCSPrint` • 🔤 `LongestCommonSubstring` • 🔤 `ShortestCommonSupersequence` • 🔤 `DistinctSubsequences`
 
 **String Transformations**  
-✏️ `EditDistance` • ❌ `DeleteOperationForTwoStrings` • 🔄 `MinimumInsertionPalindrome`
+✏️ `EditDistance` • ❌ `DeleteOperationForTwoStrings` • 🔄 `MinimumInsertionPalindrome` • 🔤 `AddVowelsInString`
 
 **Classic Problems**  
 🪙 `CoinChange` • 🪙 `CoinChangeII` • ✂️ `RodCutting` • 🎒 `UnboundedKnapsack` • 🎒 `ZeroOneKnapsack` • 🔤 `GenerateParentheses` • 🔢 `TotalWaysToDistance`
@@ -307,7 +307,7 @@ Contributions welcome! Add solutions, optimize code, fix bugs, or improve docume
 🚀 **Zero Setup** - Just clone and run  
 📚 **Learn by Doing** - Each file is self-contained with examples  
 🎯 **Interview-Focused** - Real questions from top companies  
-🔥 **125+ Problems** - Covering all major DSA topics
+🔥 **129+ Problems** - Covering all major DSA topics
 
 ---
 
@@ -318,6 +318,6 @@ Contributions welcome! Add solutions, optimize code, fix bugs, or improve docume
 
 **Made with ❤️ for the coding community**
 
-*Last updated: March 12, 2026*
+*Last updated: March 14, 2026*
 
 </div>
