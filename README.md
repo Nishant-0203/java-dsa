@@ -35,7 +35,7 @@ Master data structures and algorithms through hands-on Java implementations. Eac
 
 **🔥 Key Features**
 - ✅ Zero dependencies
-- ✅ Every file has `main(ff)`
+- ✅ Every file has `main()`
 - ✅ Clean, documented code
 - ✅ Complexity analysis
 - ✅ Real interview questions
