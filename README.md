@@ -41,7 +41,7 @@ Master data structures and algorithms through hands-on Java implementations. Eac
 - ✅ Real interview questions
 - ✅ Optimized solutions
 
-</td>
+</td> 
 </tr>
 </table>
 
